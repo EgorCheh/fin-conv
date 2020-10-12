@@ -1,0 +1,19 @@
+.Exchange{
+    width: 100px;
+    height: 500px;
+    display: inline-block; 
+    position: relative;
+}
+.Exchange-icon{
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: url('./currency-exchange.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80px;
+    cursor: pointer;
+}
